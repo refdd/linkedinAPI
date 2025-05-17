@@ -6,12 +6,12 @@ import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 
-import authRoutes from "./routers/auth.route.js";
-import userRoutes from "./routers/user.route.js";
-import postRoutes from "./routers/post.route.js";
-import notificationRoutes from "./routers/notification.route.js";
-import connectionsRoutes from "./routers/connections.route.js";
-import { connectDB } from "./lib/db.js";
+import authRoutes from "../routers/auth.route.js";
+import userRoutes from "../routers/user.route.js";
+import postRoutes from "../routers/post.route.js";
+import notificationRoutes from "../routers/notification.route.js";
+import connectionsRoutes from "../routers/connections.route.js";
+import { connectDB } from "../lib/db.js";
 
 dotenv.config();
 const app = express();
