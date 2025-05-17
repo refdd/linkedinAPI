@@ -4,8 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon api/server.js",
-    "start": "node api/server.js"
+    "dev": "nodemon api/index.js"
   },
   "keywords": [],
   "author": "",
